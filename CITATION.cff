@@ -1,0 +1,18 @@
+cff-version: 1.2.0
+message: "If you use PhaseGraph in your research, please cite this software."
+type: software
+title: PhaseGraph
+version: 0.1.1
+date-released: 2026-11-02
+license: MIT
+repository-code: "https://github.com/KeyuanLai/PhaseGraph"
+authors:
+  - family-names: Li
+    given-names: Yuanhao
+  - family-names: Lai
+    given-names: Keyuan
+  - family-names: Ma
+    given-names: Jiawei
+  - family-names: Guan
+    given-names: Pengfei
+abstract: "Extraction and structural comparison of phase-region networks from phase-diagram images."

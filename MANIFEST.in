@@ -1,0 +1,13 @@
+include README.md LICENSE NOTICE CITATION.cff
+include docs/usage.md
+recursive-include docs/assets *.png
+recursive-include examples *.md *.png
+recursive-include tests *.py
+recursive-include scripts *.py
+prune paper
+prune data
+prune results
+prune configs
+prune output
+prune build
+global-exclude __pycache__ *.py[cod]
