@@ -39,6 +39,8 @@ Extraction saves region nodes, contact edges, masks and a graph JSON. Comparison
 
 For your own diagrams, replace `examples/images` with an image folder. The extractor supports thin blue or red boundaries on a light background. See the [usage guide](docs/usage.md) for repair options, input conventions and troubleshooting.
 
+The source diagrams used in the study were obtained from [CompuTherm's phase-diagram collection](https://computherm.com/phase_diagrams). When preparing inputs from this collection, retain the original system identifiers and image resolution. The usage guide describes the supported image convention and the masks available for checking an extraction.
+
 ## Python API
 
 ```python
