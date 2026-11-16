@@ -1,0 +1,226 @@
+{
+  "schema": "phasegraph.graph/1",
+  "metadata": {
+    "name": "Ni-Cr",
+    "roi": [
+      164,
+      37,
+      983,
+      690
+    ],
+    "coordinate_frame": "crop_pixel_xy",
+    "normalization": "euclidean_internal_point_distance/roi_diagonal",
+    "repair": true,
+    "coordinate_metric": "diagonal",
+    "boundary_coverage": 0.01638468174846626,
+    "repair_strategy": "local",
+    "canonical_width": 1024,
+    "input_size": [
+      1024,
+      815
+    ],
+    "processing_size": [
+      1024,
+      815
+    ],
+    "OCR_for_geometry": false,
+    "source_name": "Ni-Cr.png",
+    "source_sha256": "4f909719563e009b7b301f3a8736b68b87f545b423827de40641a42bc378e999"
+  },
+  "nodes": [
+    {
+      "id": "1",
+      "position": [
+        352.0,
+        90.0
+      ],
+      "area_px": 127106,
+      "center_method": "raw_inside"
+    },
+    {
+      "id": "10",
+      "position": [
+        544.0,
+        564.0
+      ],
+      "area_px": 91260,
+      "center_method": "raw_inside"
+    },
+    {
+      "id": "11",
+      "position": [
+        5.0,
+        572.0
+      ],
+      "area_px": 153,
+      "center_method": "raw_inside"
+    },
+    {
+      "id": "12",
+      "position": [
+        27.0,
+        602.0
+      ],
+      "area_px": 1775,
+      "center_method": "raw_inside"
+    },
+    {
+      "id": "13",
+      "position": [
+        138.0,
+        637.0
+      ],
+      "area_px": 6163,
+      "center_method": "raw_inside"
+    },
+    {
+      "id": "2",
+      "position": [
+        645.0,
+        142.0
+      ],
+      "area_px": 14648,
+      "center_method": "raw_inside"
+    },
+    {
+      "id": "3",
+      "position": [
+        725.0,
+        216.0
+      ],
+      "area_px": 37296,
+      "center_method": "raw_inside"
+    },
+    {
+      "id": "4",
+      "position": [
+        162.0,
+        350.0
+      ],
+      "area_px": 112343,
+      "center_method": "raw_inside"
+    },
+    {
+      "id": "8",
+      "position": [
+        548.0,
+        373.0
+      ],
+      "area_px": 101475,
+      "center_method": "raw_inside"
+    },
+    {
+      "id": "9",
+      "position": [
+        193.0,
+        563.0
+      ],
+      "area_px": 20646,
+      "center_method": "raw_inside"
+    }
+  ],
+  "edges": [
+    {
+      "source": "1",
+      "target": "2",
+      "edge_distance": 0.2840957110740441,
+      "shared_boundary_px": 968
+    },
+    {
+      "source": "1",
+      "target": "4",
+      "edge_distance": 0.3074343684152893,
+      "shared_boundary_px": 491
+    },
+    {
+      "source": "1",
+      "target": "8",
+      "edge_distance": 0.32864828871720936,
+      "shared_boundary_px": 45
+    },
+    {
+      "source": "10",
+      "target": "13",
+      "edge_distance": 0.3938203528502478,
+      "shared_boundary_px": 25
+    },
+    {
+      "source": "10",
+      "target": "8",
+      "edge_distance": 0.1823860516529312,
+      "shared_boundary_px": 542
+    },
+    {
+      "source": "10",
+      "target": "9",
+      "edge_distance": 0.33509806259946834,
+      "shared_boundary_px": 145
+    },
+    {
+      "source": "11",
+      "target": "12",
+      "edge_distance": 0.03551657537195594,
+      "shared_boundary_px": 69
+    },
+    {
+      "source": "11",
+      "target": "4",
+      "edge_distance": 0.2595865595076349,
+      "shared_boundary_px": 24
+    },
+    {
+      "source": "12",
+      "target": "13",
+      "edge_distance": 0.11111394665292691,
+      "shared_boundary_px": 59
+    },
+    {
+      "source": "12",
+      "target": "4",
+      "edge_distance": 0.27292990905221,
+      "shared_boundary_px": 216
+    },
+    {
+      "source": "13",
+      "target": "9",
+      "edge_distance": 0.08802338102183388,
+      "shared_boundary_px": 207
+    },
+    {
+      "source": "2",
+      "target": "3",
+      "edge_distance": 0.10403947029943593,
+      "shared_boundary_px": 848
+    },
+    {
+      "source": "2",
+      "target": "8",
+      "edge_distance": 0.23918784294227874,
+      "shared_boundary_px": 74
+    },
+    {
+      "source": "3",
+      "target": "8",
+      "edge_distance": 0.22587685220286388,
+      "shared_boundary_px": 874
+    },
+    {
+      "source": "4",
+      "target": "8",
+      "edge_distance": 0.3691645103757826,
+      "shared_boundary_px": 791
+    },
+    {
+      "source": "4",
+      "target": "9",
+      "edge_distance": 0.20549165411131248,
+      "shared_boundary_px": 594
+    },
+    {
+      "source": "8",
+      "target": "9",
+      "edge_distance": 0.38440411887669435,
+      "shared_boundary_px": 29
+    }
+  ]
+}

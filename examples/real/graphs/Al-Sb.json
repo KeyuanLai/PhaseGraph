@@ -1,0 +1,127 @@
+{
+  "schema": "phasegraph.graph/1",
+  "metadata": {
+    "name": "Al-Sb",
+    "roi": [
+      164,
+      37,
+      983,
+      689
+    ],
+    "coordinate_frame": "crop_pixel_xy",
+    "normalization": "euclidean_internal_point_distance/roi_diagonal",
+    "repair": true,
+    "coordinate_metric": "diagonal",
+    "boundary_coverage": 0.012059467137592138,
+    "repair_strategy": "local",
+    "canonical_width": 1024,
+    "input_size": [
+      1024,
+      814
+    ],
+    "processing_size": [
+      1024,
+      814
+    ],
+    "OCR_for_geometry": false,
+    "source_name": "Al-Sb.png",
+    "source_sha256": "d75064983f803584fb5a1202a9fd20d6f1768217bc7e90fd4e0f82247d13d23b"
+  },
+  "nodes": [
+    {
+      "id": "1",
+      "position": [
+        453.0,
+        72.0
+      ],
+      "area_px": 105336,
+      "center_method": "projected_inside"
+    },
+    {
+      "id": "2",
+      "position": [
+        232.0,
+        202.0
+      ],
+      "area_px": 68992,
+      "center_method": "raw_inside"
+    },
+    {
+      "id": "3",
+      "position": [
+        563.0,
+        217.0
+      ],
+      "area_px": 65012,
+      "center_method": "raw_inside"
+    },
+    {
+      "id": "4",
+      "position": [
+        206.0,
+        472.0
+      ],
+      "area_px": 142208,
+      "center_method": "raw_inside"
+    },
+    {
+      "id": "6",
+      "position": [
+        613.0,
+        482.0
+      ],
+      "area_px": 133739,
+      "center_method": "raw_inside"
+    }
+  ],
+  "edges": [
+    {
+      "source": "1",
+      "target": "2",
+      "edge_distance": 0.24492867026823542,
+      "shared_boundary_px": 959
+    },
+    {
+      "source": "1",
+      "target": "3",
+      "edge_distance": 0.17385989587788775,
+      "shared_boundary_px": 1082
+    },
+    {
+      "source": "1",
+      "target": "6",
+      "edge_distance": 0.42042282111541435,
+      "shared_boundary_px": 12
+    },
+    {
+      "source": "2",
+      "target": "3",
+      "edge_distance": 0.3165154782490697,
+      "shared_boundary_px": 214
+    },
+    {
+      "source": "2",
+      "target": "4",
+      "edge_distance": 0.2591132123238645,
+      "shared_boundary_px": 403
+    },
+    {
+      "source": "3",
+      "target": "4",
+      "edge_distance": 0.41909020219232784,
+      "shared_boundary_px": 22
+    },
+    {
+      "source": "3",
+      "target": "6",
+      "edge_distance": 0.25761036721066033,
+      "shared_boundary_px": 389
+    },
+    {
+      "source": "4",
+      "target": "6",
+      "edge_distance": 0.3889080477401777,
+      "shared_boundary_px": 333
+    }
+  ]
+}

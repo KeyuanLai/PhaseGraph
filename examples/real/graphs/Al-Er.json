@@ -1,0 +1,361 @@
+{
+  "schema": "phasegraph.graph/1",
+  "metadata": {
+    "name": "Al-Er",
+    "roi": [
+      164,
+      37,
+      983,
+      690
+    ],
+    "coordinate_frame": "crop_pixel_xy",
+    "normalization": "euclidean_internal_point_distance/roi_diagonal",
+    "repair": true,
+    "coordinate_metric": "diagonal",
+    "boundary_coverage": 0.022407016871165645,
+    "repair_strategy": "local",
+    "canonical_width": 1024,
+    "input_size": [
+      1024,
+      815
+    ],
+    "processing_size": [
+      1024,
+      815
+    ],
+    "OCR_for_geometry": false,
+    "source_name": "Al-Er.png",
+    "source_sha256": "0e24e70faa39f1939a70b6f3b04b554b0c119c426dac952577208ff6d2641907"
+  },
+  "nodes": [
+    {
+      "id": "1",
+      "position": [
+        385.0,
+        95.0
+      ],
+      "area_px": 118339,
+      "center_method": "raw_inside"
+    },
+    {
+      "id": "10",
+      "position": [
+        116.0,
+        306.0
+      ],
+      "area_px": 28089,
+      "center_method": "raw_inside"
+    },
+    {
+      "id": "11",
+      "position": [
+        238.0,
+        437.0
+      ],
+      "area_px": 27882,
+      "center_method": "raw_inside"
+    },
+    {
+      "id": "12",
+      "position": [
+        519.0,
+        436.0
+      ],
+      "area_px": 22123,
+      "center_method": "raw_inside"
+    },
+    {
+      "id": "13",
+      "position": [
+        571.0,
+        235.0
+      ],
+      "area_px": 820,
+      "center_method": "raw_inside"
+    },
+    {
+      "id": "14",
+      "position": [
+        681.0,
+        447.0
+      ],
+      "area_px": 107608,
+      "center_method": "raw_inside"
+    },
+    {
+      "id": "15",
+      "position": [
+        103.0,
+        517.0
+      ],
+      "area_px": 52337,
+      "center_method": "raw_inside"
+    },
+    {
+      "id": "2",
+      "position": [
+        743.0,
+        166.0
+      ],
+      "area_px": 24379,
+      "center_method": "raw_inside"
+    },
+    {
+      "id": "3",
+      "position": [
+        196.0,
+        153.0
+      ],
+      "area_px": 17634,
+      "center_method": "raw_inside"
+    },
+    {
+      "id": "4",
+      "position": [
+        336.0,
+        138.0
+      ],
+      "area_px": 12224,
+      "center_method": "raw_inside"
+    },
+    {
+      "id": "5",
+      "position": [
+        273.0,
+        190.0
+      ],
+      "area_px": 2903,
+      "center_method": "raw_inside"
+    },
+    {
+      "id": "6",
+      "position": [
+        342.0,
+        423.0
+      ],
+      "area_px": 59746,
+      "center_method": "raw_inside"
+    },
+    {
+      "id": "7",
+      "position": [
+        432.0,
+        203.0
+      ],
+      "area_px": 743,
+      "center_method": "raw_inside"
+    },
+    {
+      "id": "8",
+      "position": [
+        450.0,
+        431.0
+      ],
+      "area_px": 34375,
+      "center_method": "raw_inside"
+    },
+    {
+      "id": "9",
+      "position": [
+        507.0,
+        217.0
+      ],
+      "area_px": 202,
+      "center_method": "raw_inside"
+    }
+  ],
+  "edges": [
+    {
+      "source": "1",
+      "target": "10",
+      "edge_distance": 0.32639000811610813,
+      "shared_boundary_px": 435
+    },
+    {
+      "source": "1",
+      "target": "12",
+      "edge_distance": 0.3497833693060528,
+      "shared_boundary_px": 17
+    },
+    {
+      "source": "1",
+      "target": "13",
+      "edge_distance": 0.22225250008172112,
+      "shared_boundary_px": 140
+    },
+    {
+      "source": "1",
+      "target": "14",
+      "edge_distance": 0.43907504734288627,
+      "shared_boundary_px": 4
+    },
+    {
+      "source": "1",
+      "target": "2",
+      "edge_distance": 0.34843622617803305,
+      "shared_boundary_px": 785
+    },
+    {
+      "source": "1",
+      "target": "3",
+      "edge_distance": 0.18874180154005848,
+      "shared_boundary_px": 623
+    },
+    {
+      "source": "1",
+      "target": "4",
+      "edge_distance": 0.06223826865655146,
+      "shared_boundary_px": 517
+    },
+    {
+      "source": "1",
+      "target": "7",
+      "edge_distance": 0.11244709263656576,
+      "shared_boundary_px": 107
+    },
+    {
+      "source": "1",
+      "target": "8",
+      "edge_distance": 0.3267235384091547,
+      "shared_boundary_px": 29
+    },
+    {
+      "source": "1",
+      "target": "9",
+      "edge_distance": 0.16471678858477598,
+      "shared_boundary_px": 68
+    },
+    {
+      "source": "10",
+      "target": "11",
+      "edge_distance": 0.17090043804406319,
+      "shared_boundary_px": 168
+    },
+    {
+      "source": "10",
+      "target": "15",
+      "edge_distance": 0.2018218650749833,
+      "shared_boundary_px": 197
+    },
+    {
+      "source": "10",
+      "target": "3",
+      "edge_distance": 0.1648301832458432,
+      "shared_boundary_px": 118
+    },
+    {
+      "source": "11",
+      "target": "15",
+      "edge_distance": 0.14981357148301902,
+      "shared_boundary_px": 265
+    },
+    {
+      "source": "11",
+      "target": "3",
+      "edge_distance": 0.2740812605460992,
+      "shared_boundary_px": 54
+    },
+    {
+      "source": "11",
+      "target": "5",
+      "edge_distance": 0.23816442771902732,
+      "shared_boundary_px": 168
+    },
+    {
+      "source": "11",
+      "target": "6",
+      "edge_distance": 0.10018348597512022,
+      "shared_boundary_px": 315
+    },
+    {
+      "source": "12",
+      "target": "13",
+      "edge_distance": 0.19821059382245385,
+      "shared_boundary_px": 22
+    },
+    {
+      "source": "12",
+      "target": "14",
+      "edge_distance": 0.15501614259823185,
+      "shared_boundary_px": 405
+    },
+    {
+      "source": "12",
+      "target": "8",
+      "edge_distance": 0.06604643567985688,
+      "shared_boundary_px": 428
+    },
+    {
+      "source": "12",
+      "target": "9",
+      "edge_distance": 0.20939106577743163,
+      "shared_boundary_px": 44
+    },
+    {
+      "source": "13",
+      "target": "14",
+      "edge_distance": 0.22801741799183334,
+      "shared_boundary_px": 66
+    },
+    {
+      "source": "14",
+      "target": "2",
+      "edge_distance": 0.2747206584144767,
+      "shared_boundary_px": 199
+    },
+    {
+      "source": "3",
+      "target": "5",
+      "edge_distance": 0.08155769955933302,
+      "shared_boundary_px": 191
+    },
+    {
+      "source": "4",
+      "target": "5",
+      "edge_distance": 0.07798724890593055,
+      "shared_boundary_px": 172
+    },
+    {
+      "source": "4",
+      "target": "6",
+      "edge_distance": 0.27214735587171346,
+      "shared_boundary_px": 122
+    },
+    {
+      "source": "4",
+      "target": "7",
+      "edge_distance": 0.1106824664677579,
+      "shared_boundary_px": 21
+    },
+    {
+      "source": "5",
+      "target": "6",
+      "edge_distance": 0.2319919892840155,
+      "shared_boundary_px": 188
+    },
+    {
+      "source": "6",
+      "target": "7",
+      "edge_distance": 0.2269275695915675,
+      "shared_boundary_px": 20
+    },
+    {
+      "source": "6",
+      "target": "8",
+      "edge_distance": 0.10338916231422918,
+      "shared_boundary_px": 437
+    },
+    {
+      "source": "7",
+      "target": "8",
+      "edge_distance": 0.21834693272608288,
+      "shared_boundary_px": 60
+    },
+    {
+      "source": "8",
+      "target": "9",
+      "edge_distance": 0.2114269804568778,
+      "shared_boundary_px": 9
+    }
+  ]
+}

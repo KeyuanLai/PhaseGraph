@@ -1,7 +1,7 @@
 include README.md LICENSE NOTICE CITATION.cff
 include docs/usage.md
 recursive-include docs/assets *.png
-recursive-include examples *.md *.png
+recursive-include examples *.md *.png *.json *.csv
 recursive-include tests *.py
 recursive-include scripts *.py
 prune paper

@@ -1,0 +1,5 @@
+system,image,source_url,sha256
+Al-Sb,images/Al-Sb.png,https://computherm.com/al-sb,d75064983f803584fb5a1202a9fd20d6f1768217bc7e90fd4e0f82247d13d23b
+Al-Er,images/Al-Er.png,https://computherm.com/al-er,0e24e70faa39f1939a70b6f3b04b554b0c119c426dac952577208ff6d2641907
+Ni-Cr,images/Ni-Cr.png,https://computherm.com/Ni-Cr,4f909719563e009b7b301f3a8736b68b87f545b423827de40641a42bc378e999
+Ni-Tb,images/Ni-Tb.png,https://computherm.com/Ni-Tb,ec174f938226670a19bc5eb106d6cacf15368ca54ccce8ae2650b9df917ca176

@@ -1,5 +1,11 @@
 PhaseGraph
 
 Original software, documentation and synthetic examples are distributed under the
-MIT license. Dependencies retain their respective licenses. No external images,
-OCR model weights or third-party datasets are included in this distribution.
+MIT license. Dependencies retain their respective licenses.
+
+The phase-diagram images in examples/real/images originate from CompuTherm's
+Pandat phase-diagram collection (https://computherm.com/phase_diagrams).
+Copyright CompuTherm LLC. All rights reserved. These third-party images,
+including their reproduction in the example previews, are not covered by the
+software's MIT license. Individual source pages and image hashes are listed
+in examples/real/sources.csv. No OCR model weights are included.

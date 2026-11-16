@@ -8,7 +8,7 @@
 
 PhaseGraph extracts region adjacency graphs from phase-diagram images, compares their structure and finds similar diagrams. It provides a command-line interface and a Python API, without requiring matching phase names.
 
-![A synthetic image, its region graph and pairwise distances](docs/assets/overview.png)
+![Al-Er phase diagram, recovered regions and extracted region graph](examples/real/previews/Al-Er.png)
 
 ## Install
 
@@ -40,6 +40,21 @@ Extraction saves region nodes, contact edges, masks and a graph JSON. Comparison
 For your own diagrams, replace `examples/images` with an image folder. The extractor supports thin blue or red boundaries on a light background. See the [usage guide](docs/usage.md) for repair options, input conventions and troubleshooting.
 
 The source diagrams used in the study were obtained from [CompuTherm's phase-diagram collection](https://computherm.com/phase_diagrams). When preparing inputs from this collection, retain the original system identifiers and image resolution. The usage guide describes the supported image convention and the masks available for checking an extraction.
+
+## Real diagrams
+
+Four worked examples from CompuTherm's Pandat collection include Al-Sb, Al-Er,
+Ni-Cr and Ni-Tb. Each includes the original image, an extracted graph and a
+side-by-side preview. See the [example gallery](examples/real/README.md) for
+all four diagrams and their sources.
+
+```bash
+python scripts/real_examples.py
+```
+
+This reruns extraction and saves masks, graphs and previews to
+`output/real_examples`. The examples use the same local-repair settings,
+with the input width normalised to 1024 pixels.
 
 ## Python API
 
